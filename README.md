@@ -5,14 +5,41 @@ containing the scraper that builds it and the SQLite database it produces.
 
 ```
 healthdata/
-├── requirements.txt          # shared Python deps (requests, beautifulsoup4)
-├── bc_wait_times/            # BC surgery wait times — swt.hlth.gov.bc.ca
+├── requirements.txt              # shared Python deps (requests, beautifulsoup4, pdfplumber)
+├── bc_wait_times/                # BC surgery wait times — swt.hlth.gov.bc.ca           [CBA B2]
 │   ├── scrape_bc_wait_times.py
 │   └── bc_wait_times.db
-└── msp_codes/                # MSP billing codes — dr-bill.ca
-    ├── scrape_msp_codes.py
-    └── msp_codes.db
+├── msp_codes/                    # MSP billing codes — dr-bill.ca                       [CBA B1]
+│   ├── scrape_msp_codes.py
+│   └── msp_codes.db
+├── statcan_education_earnings/   # Graduate income by credential — StatCan 37-10-0115   [CBA B4]
+│   ├── scrape_statcan_education_earnings.py
+│   └── education_earnings.db
+├── unbc_sofi/                    # UNBC employee remuneration — SOFI PDF             [CBA B19-B21,B5]
+│   ├── scrape_unbc_sofi.py
+│   └── unbc_sofi.db
+├── bc_utility_tariffs/           # Electricity/gas/water rates — BC Hydro/FortisBC/PG   [CBA opex]
+│   ├── scrape_bc_utility_tariffs.py
+│   └── bc_utility_tariffs.db
+├── bc_permit_fees/               # PG permit & regulatory fees — bylaw PDFs             [CBA capex]
+│   ├── scrape_bc_permit_fees.py
+│   └── bc_permit_fees.db
+├── bc_patient_travel/            # NH Connections routes + travel cost benchmarks       [CBA B3]
+│   ├── scrape_bc_patient_travel.py
+│   └── bc_patient_travel.db
+├── statcan_cba/                  # BC wages/retirement/labour force/migration — StatCan [CBA B2,B5,B12,B13]
+│   ├── scrape_statcan_cba.py
+│   └── statcan_cba.db
+└── cihi_cshs/                    # Cost of a Standard Hospital Stay — CIHI (manual export) [CBA B1]
+    ├── load_cihi_cshs.py
+    ├── source/                   # drop CIHI .xlsx exports here, then run the loader
+    └── cihi_cshs.db
 ```
+
+These all feed the NHHR cost-benefit analysis public-data needs (`[CBA ...]` tags map
+to benefit/cost lines). `statcan_education_earnings` pulls fresh from the StatCan WDS
+API; `unbc_sofi`, `bc_utility_tariffs` and `bc_permit_fees` download + parse PDFs
+(needs `pdfplumber`).
 
 ## Setup
 
@@ -26,9 +53,20 @@ Each scraper writes its database into the current directory by default, so run i
 from inside its own folder:
 
 ```bash
-cd bc_wait_times && python scrape_bc_wait_times.py
-cd msp_codes     && python scrape_msp_codes.py
+cd bc_wait_times              && python scrape_bc_wait_times.py
+cd msp_codes                  && python scrape_msp_codes.py
+cd statcan_education_earnings && python scrape_statcan_education_earnings.py
+cd unbc_sofi                  && python scrape_unbc_sofi.py
+cd bc_utility_tariffs         && python scrape_bc_utility_tariffs.py
+cd bc_permit_fees             && python scrape_bc_permit_fees.py
+cd bc_patient_travel          && python scrape_bc_patient_travel.py
+cd statcan_cba                && python scrape_statcan_cba.py
+cd cihi_cshs                  && python load_cihi_cshs.py   # parses CIHI exports in source/
 ```
+
+`cihi_cshs` is a **loader, not a scraper**: CIHI publishes CSHS through an
+interactive tool, so download the BC / Canada exports from cihi.ca into
+`cihi_cshs/source/` and re-run the loader to refresh.
 
 ## Adding a new data source
 
