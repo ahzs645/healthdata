@@ -54,6 +54,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.0651555,
+          49.2327035
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Greig Associates X-ray, Ultrasound and Mammography Inc.",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Greig Associates X-ray and Ultrasound - 5752 Victoria Drive",
+        "site_type": "diagnostic_facility",
+        "address": "5752 Victoria Dr",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "Greig Associates official site",
+        "source_url": "https://greigassociates.com/",
+        "verification_status": "verified",
+        "notes": "Official Greig Associates site lists this as one of three Vancouver locations. BC Geocoder matched 5752 Victoria Dr, Vancouver, BC score=96 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.1185783,
           49.2333488
         ]
@@ -95,6 +119,30 @@
         "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
         "verification_status": "verified",
         "notes": "Official approved diagnostic facility list location. BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0651555,
+          49.2327035
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Grieg Associates X-ray, Ultrasound and Mammography Inc.",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Greig Associates X-ray and Ultrasound - 5752 Victoria Drive",
+        "site_type": "diagnostic_facility",
+        "address": "5752 Victoria Dr",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "Greig Associates official site",
+        "source_url": "https://greigassociates.com/",
+        "verification_status": "verified",
+        "notes": "Parent payee appears to be a spelling variant of Greig Associates; official Greig Associates site lists this as one of three Vancouver locations. BC Geocoder matched 5752 Victoria Dr, Vancouver, BC score=96 precision=CIVIC_NUMBER."
       }
     },
     {
@@ -335,6 +383,54 @@
         "source_url": "https://opengovca.com/place/ChIJXxw7NugEgVQRnc4JDirw3KU",
         "verification_status": "geocoded_needs_review",
         "notes": "Preliminary mapping for historical MSP payee. Several directory sources list 575A Main St for the health centre; older hospital listings also cite 844 Main St. BC Geocoder matched 575A Main St, Lytton, BC score=97 precision=BLOCK."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4920835,
+          49.8842375
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Valley Medical Laboratories",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Valley Medical Laboratories Head Office",
+        "site_type": "headquarters",
+        "address": "537 Leon Ave",
+        "locality": "Kelowna",
+        "province": "BC",
+        "postal_code": "V1Y 6J5",
+        "source_label": null,
+        "source_url": "Valley Medical Laboratories contact page",
+        "verification_status": "https://valleymedicallaboratories.com/contact-us/",
+        "notes": "verified BC Geocoder matched UNIT 105 -- 537 Leon Ave, Kelowna, BC score=99 precision=UNIT."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0956882,
+          49.3149784
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "West Coast Medical Imaging Inc",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "West Coast Medical Imaging Head Office",
+        "site_type": "headquarters",
+        "address": "828 Harbourside Dr",
+        "locality": "North Vancouver",
+        "province": "BC",
+        "postal_code": "V7P 3R9",
+        "source_label": null,
+        "source_url": "West Coast Medical Imaging clinics page",
+        "verification_status": "https://www.westcoastmedicalimaging.com/clinics",
+        "notes": "verified BC Geocoder matched UNIT 207 -- 828 Harbourside Dr, North Vancouver, BC score=99 precision=UNIT."
       }
     }
   ]
