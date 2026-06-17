@@ -5,6 +5,10 @@ containing the scraper that builds it and the SQLite database it produces.
 
 ```
 healthdata/
+├── health_place_registry/        # Shared health place names, addresses, aliases
+│   ├── build_health_place_registry.py
+│   ├── health_place_registry.csv
+│   └── health_place_registry.geojson
 ├── requirements.txt              # shared Python deps (requests, beautifulsoup4, pdfplumber)
 ├── bc_wait_times/                # BC surgery wait times — swt.hlth.gov.bc.ca           [CBA B2]
 │   ├── scrape_bc_wait_times.py
@@ -12,6 +16,9 @@ healthdata/
 ├── msp_codes/                    # MSP billing codes — dr-bill.ca                       [CBA B1]
 │   ├── scrape_msp_codes.py
 │   └── msp_codes.db
+├── bc_msp_blue_book/             # MSP practitioner payments — BC Data Catalogue        [CBA B1]
+│   ├── load_bc_msp_blue_book.py
+│   └── bc_msp_blue_book.db
 ├── statcan_education_earnings/   # Graduate income by credential — StatCan 37-10-0115   [CBA B4]
 │   ├── scrape_statcan_education_earnings.py
 │   └── education_earnings.db
@@ -55,6 +62,8 @@ from inside its own folder:
 ```bash
 cd bc_wait_times              && python scrape_bc_wait_times.py
 cd msp_codes                  && python scrape_msp_codes.py
+cd bc_msp_blue_book           && python load_bc_msp_blue_book.py
+cd health_place_registry      && python build_health_place_registry.py --sync --export-geojson
 cd statcan_education_earnings && python scrape_statcan_education_earnings.py
 cd unbc_sofi                  && python scrape_unbc_sofi.py
 cd bc_utility_tariffs         && python scrape_bc_utility_tariffs.py

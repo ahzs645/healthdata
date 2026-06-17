@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3264312,
+          48.4338205
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Greater Victoria Hospitals",
+        "parent_place_type": "hospital",
+        "site_name": "Royal Jubilee Hospital",
+        "site_type": "hospital",
+        "address": "1952 Bay St",
+        "locality": "Victoria",
+        "province": "BC",
+        "postal_code": "V8R 1J8",
+        "source_label": "Victoria Hospitals Foundation",
+        "source_url": "https://www.victoriahf.ca/your-hospitals/",
+        "verification_status": "verified",
+        "notes": "User-provided source identifies Royal Jubilee Hospital as one of the Greater Victoria Hospitals. BC Geocoder matched 1952 Bay St, Victoria, BC score=99 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.4321793,
+          48.4668088
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Greater Victoria Hospitals",
+        "parent_place_type": "hospital",
+        "site_name": "Victoria General Hospital",
+        "site_type": "hospital",
+        "address": "1 Hospital Way",
+        "locality": "View Royal",
+        "province": "BC",
+        "postal_code": "V8Z 6R5",
+        "source_label": "Victoria Hospitals Foundation",
+        "source_url": "https://www.victoriahf.ca/your-hospitals/",
+        "verification_status": "verified",
+        "notes": "User-provided source identifies Victoria General Hospital as one of the Greater Victoria Hospitals. BC Geocoder matched 1 Hospital Way, View Royal, BC score=99 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0651522,
+          49.2323018
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Greig Associates X-ray",
+        "parent_place_type": "Ultrasound and Mammography Inc.",
+        "site_name": "diagnostic_facility",
+        "site_type": "Greig Associates X-ray and Ultrasound - Victoria Drive",
+        "address": "5732 Victoria Dr",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "BC",
+        "source_label": null,
+        "source_url": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "verification_status": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "notes": "verified BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0651522,
+          49.2323018
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Grieg Associates X-ray",
+        "parent_place_type": "Ultrasound and Mammography Inc.",
+        "site_name": "diagnostic_facility",
+        "site_type": "Greig Associates X-ray and Ultrasound - Victoria Drive",
+        "address": "5732 Victoria Dr",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "BC",
+        "source_label": null,
+        "source_url": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "verification_status": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "notes": "verified BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.7637824,
+          49.5137052
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Lindsay Diagnostic Imaging Services Inc",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Baker Street Diagnostics",
+        "site_type": "diagnostic_facility",
+        "address": "1311 2nd St N",
+        "locality": "Cranbrook",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "Lindsay Diagnostic Imaging Services official site",
+        "source_url": "https://www.lindsaydiagnosticimaging.com/",
+        "verification_status": "verified",
+        "notes": "Company site lists this clinic as one of two Lindsay Diagnostic Imaging locations. BC Geocoder matched UNIT 265 -- 1311 2nd St N, Cranbrook, BC score=99 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.3283702,
+          50.676858
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Lindsay Diagnostic Imaging Services Inc",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Kamloops Downtown X-ray Clinic",
+        "site_type": "diagnostic_facility",
+        "address": "450 Lansdowne St",
+        "locality": "Kamloops",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "Lindsay Diagnostic Imaging Services official site",
+        "source_url": "https://www.lindsaydiagnosticimaging.com/",
+        "verification_status": "verified",
+        "notes": "Company site lists this clinic as one of two Lindsay Diagnostic Imaging locations. BC Geocoder matched UNIT 107 -- 450 Lansdowne St, Kamloops, BC score=100 precision=UNIT."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.2443122,
+          50.0097537
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "North Island Hospital",
+        "parent_place_type": "hospital",
+        "site_name": "North Island Hospital - Campbell River and District",
+        "site_type": "hospital",
+        "address": "375 2nd Ave",
+        "locality": "Campbell River",
+        "province": "BC",
+        "postal_code": "V9W 3V1",
+        "source_label": "Island Health North Island Hospital Campbell River and District",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/north-island-hospital-campbell-river-district",
+        "verification_status": "verified",
+        "notes": "One of the two North Island Hospital sites. BC Geocoder matched 375 2nd Ave, Campbell River, BC score=99 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.9703841,
+          49.7134165
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "North Island Hospital",
+        "parent_place_type": "hospital",
+        "site_name": "North Island Hospital - Comox Valley",
+        "site_type": "hospital",
+        "address": "101 Lerwick Rd",
+        "locality": "Courtenay",
+        "province": "BC",
+        "postal_code": "V9N 0B9",
+        "source_label": "Island Health North Island Hospital Comox Valley",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/north-island-hospital-comox-valley",
+        "verification_status": "verified",
+        "notes": "One of the two North Island Hospital sites. BC Geocoder matched 101 Lerwick Rd, Courtenay, BC score=99 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0740401,
+          49.3228247
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "North Shore Medical Imaging Inc",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "North Shore Medical Imaging - North Vancouver",
+        "site_type": "diagnostic_facility",
+        "address": "139 W 16th St",
+        "locality": "North Vancouver",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "verification_status": "verified",
+        "notes": "Official approved diagnostic facility list location. BC Geocoder matched 139 W 16th St, North Vancouver, BC score=100 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1532612,
+          49.700736
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "North Shore Medical Imaging Inc",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "North Shore Medical Imaging - Squamish",
+        "site_type": "diagnostic_facility",
+        "address": "38117 Second Ave",
+        "locality": "Squamish",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - diagnostic ultrasound",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_diagnostic_ultrasound.pdf",
+        "verification_status": "verified",
+        "notes": "Official approved diagnostic facility list location. BC Geocoder matched 38117 Second Ave, Squamish, BC score=99 precision=BLOCK."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1595365,
+          49.3289966
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "North Shore Medical Imaging Inc",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "North Shore Medical Imaging - West Vancouver",
+        "site_type": "diagnostic_facility",
+        "address": "575 16th St",
+        "locality": "West Vancouver",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "verification_status": "verified",
+        "notes": "Official approved diagnostic facility list location. BC Geocoder matched UNIT 110 -- 575 16th St, West Vancouver, BC score=99 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5809249,
+          50.2322661
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "St. Bartholomew's Hospital",
+        "parent_place_type": "hospital",
+        "site_name": "St. Bartholomew's Health Centre",
+        "site_type": "hospital",
+        "address": "575A Main St",
+        "locality": "Lytton",
+        "province": "BC",
+        "postal_code": "V0K 1Z0",
+        "source_label": "St. Bartholomew's Health Centre directory record",
+        "source_url": "https://opengovca.com/place/ChIJXxw7NugEgVQRnc4JDirw3KU",
+        "verification_status": "geocoded_needs_review",
+        "notes": "Preliminary mapping for historical MSP payee. Several directory sources list 575A Main St for the health centre; older hospital listings also cite 844 Main St BC Geocoder matched 575A Main St, Lytton, BC score=97 precision=BLOCK."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1430 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3134383,
+          49.0368448
+        ]
+      },
+      "properties": {
+        "facility_name": "Abbotsford Regional Hospital And Cancer Centre",
+        "health_authority": "Fraser Health",
+        "address": "32900 Marshall Rd",
+        "locality": "Abbotsford",
+        "province": "BC",
+        "postal_code": "V2S 0C2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Abbotsford/abbotsford-regional-hospital-and-cancer-centre",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 40,
+        "procedure_count": 87,
+        "wait_time_row_count": 336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1187451,
+          49.2617877
+        ]
+      },
+      "properties": {
+        "facility_name": "B.C. Cancer Agency",
+        "health_authority": "Provincial Health Services Authority",
+        "address": "600 W 10th Ave",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V5Z 4E6",
+        "source_label": "BC Cancer Vancouver centre page",
+        "source_url": "https://www.bccancer.bc.ca/our-services/centres-clinics/bc-cancer-vancouver",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 21,
+        "procedure_count": 9,
+        "wait_time_row_count": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1240727,
+          49.2443202
+        ]
+      },
+      "properties": {
+        "facility_name": "B.C. Children's Hospital",
+        "health_authority": "Provincial Health Services Authority",
+        "address": "4500 Oak St",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V6H 3N1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.bcchildrens.ca/",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 137,
+        "procedure_count": 110,
+        "wait_time_row_count": 711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1240727,
+          49.2443202
+        ]
+      },
+      "properties": {
+        "facility_name": "B.C. Women's Hospital",
+        "health_authority": "Provincial Health Services Authority",
+        "address": "4500 Oak St",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V6H 3N1",
+        "source_label": "BC Women's Hospital contact page",
+        "source_url": "https://www.bcwomens.ca/about/contact",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 73,
+        "procedure_count": 17,
+        "wait_time_row_count": 315
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.1622546,
+          54.78461
+        ]
+      },
+      "properties": {
+        "facility_name": "Bulkley Valley District Hospital",
+        "health_authority": "Northern Health",
+        "address": "3950 8th Ave",
+        "locality": "Smithers",
+        "province": "BC",
+        "postal_code": "V0J 2N0",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/bulkley-valley-district-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 26,
+        "procedure_count": 53,
+        "wait_time_row_count": 129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0148833,
+          49.249695
+        ]
+      },
+      "properties": {
+        "facility_name": "Burnaby Hospital",
+        "health_authority": "Fraser Health",
+        "address": "3935 Kincaid St",
+        "locality": "Burnaby",
+        "province": "BC",
+        "postal_code": "V5G 2X6",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Burnaby/burnaby-hospital#.W1jxFdVKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 56,
+        "procedure_count": 60,
+        "wait_time_row_count": 278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.2443122,
+          50.0097537
+        ]
+      },
+      "properties": {
+        "facility_name": "Campbell River And District General Hospital",
+        "health_authority": "Vancouver Island Health",
+        "address": "375 2nd Ave",
+        "locality": "Campbell River",
+        "province": "BC",
+        "postal_code": "V9W 3V1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/north-island-hospital-campbell-river-district",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 21,
+        "procedure_count": 60,
+        "wait_time_row_count": 156
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1440298,
+          52.137492
+        ]
+      },
+      "properties": {
+        "facility_name": "Cariboo Memorial Hospital",
+        "health_authority": "Interior Health",
+        "address": "517 6th Ave N",
+        "locality": "Williams Lake",
+        "province": "BC",
+        "postal_code": "V2G 2G8",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/cariboo-memorial-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 16,
+        "procedure_count": 30,
+        "wait_time_row_count": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9686416,
+          49.182857
+        ]
+      },
+      "properties": {
+        "facility_name": "Centre Island Surgical Centre",
+        "health_authority": "Vancouver Island Health",
+        "address": "1179 Seafield Cres",
+        "locality": "Nanaimo",
+        "province": "BC",
+        "postal_code": "V9S 4S1",
+        "source_label": "Island Health facility page",
+        "source_url": "https://www.islandhealth.ca/our-locations/ambulatory-day-surgery-locations/centre-island-surgical-centre-cisc",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 22,
+        "procedure_count": 17,
+        "wait_time_row_count": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9638045,
+          49.1668449
+        ]
+      },
+      "properties": {
+        "facility_name": "Chilliwack General Hospital",
+        "health_authority": "Fraser Health",
+        "address": "45600 Menholm Rd",
+        "locality": "Chilliwack",
+        "province": "BC",
+        "postal_code": "V2P 1P7",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Chilliwack/chilliwack-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 28,
+        "procedure_count": 66,
+        "wait_time_row_count": 181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.9703841,
+          49.7134165
+        ]
+      },
+      "properties": {
+        "facility_name": "Comox Valley Hospital",
+        "health_authority": "Vancouver Island Health",
+        "address": "101 Lerwick Rd",
+        "locality": "Courtenay",
+        "province": "BC",
+        "postal_code": "V9N 0B9",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/north-island-hospital-comox-valley",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 32,
+        "procedure_count": 67,
+        "wait_time_row_count": 224
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.7227061,
+          48.786123
+        ]
+      },
+      "properties": {
+        "facility_name": "Cowichan District Hospital",
+        "health_authority": "Vancouver Island Health",
+        "address": "3045 Gibbins Rd",
+        "locality": "Duncan",
+        "province": "BC",
+        "postal_code": "V9L 1E5",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/cowichan-district-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 31,
+        "procedure_count": 58,
+        "wait_time_row_count": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5076442,
+          49.0980755
+        ]
+      },
+      "properties": {
+        "facility_name": "Creston Valley Hospital",
+        "health_authority": "Interior Health",
+        "address": "312 15th Ave N",
+        "locality": "Creston",
+        "province": "BC",
+        "postal_code": "V0B 1G0",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/creston-valley-hospital-health-centre",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 8,
+        "procedure_count": 12,
+        "wait_time_row_count": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.2356029,
+          55.7498607
+        ]
+      },
+      "properties": {
+        "facility_name": "Dawson Creek And District Hospital",
+        "health_authority": "Northern Health",
+        "address": "11100 13 St",
+        "locality": "Dawson Creek",
+        "province": "BC",
+        "postal_code": "V1G 3W8",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/dawson-creek-and-district-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 7,
+        "procedure_count": 33,
+        "wait_time_row_count": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0618248,
+          49.0861644
+        ]
+      },
+      "properties": {
+        "facility_name": "Delta Hospital",
+        "health_authority": "Fraser Health",
+        "address": "5800 Mountain View Blvd",
+        "locality": "Delta",
+        "province": "BC",
+        "postal_code": "V4K 3V6",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Delta/delta-hospital#.W1jzkNVKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 30,
+        "procedure_count": 45,
+        "wait_time_row_count": 154
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8241855,
+          49.2851675
+        ]
+      },
+      "properties": {
+        "facility_name": "Eagle Ridge Hospital",
+        "health_authority": "Fraser Health",
+        "address": "475 Guildford Way",
+        "locality": "Port Moody",
+        "province": "BC",
+        "postal_code": "V3H 3W9",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Port-Moody/eagle-ridge-hospital#.W1jsv9VKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 55,
+        "procedure_count": 81,
+        "wait_time_row_count": 322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.7499698,
+          49.5124205
+        ]
+      },
+      "properties": {
+        "facility_name": "East Kootenay Regional Hospital",
+        "health_authority": "Interior Health",
+        "address": "13 24th Ave N",
+        "locality": "Cranbrook",
+        "province": "BC",
+        "postal_code": "V1C 3H9",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/east-kootenay-regional-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 27,
+        "procedure_count": 71,
+        "wait_time_row_count": 204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0562654,
+          49.5136825
+        ]
+      },
+      "properties": {
+        "facility_name": "Elk Valley Hospital",
+        "health_authority": "Interior Health",
+        "address": "1501 5th Ave",
+        "locality": "Fernie",
+        "province": "BC",
+        "postal_code": "V0B 1M0",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/elk-valley-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 10,
+        "procedure_count": 21,
+        "wait_time_row_count": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8161127,
+          56.2560541
+        ]
+      },
+      "properties": {
+        "facility_name": "Fort St John General Hospital",
+        "health_authority": "Northern Health",
+        "address": "8407 112 Ave",
+        "locality": "Fort St. John",
+        "province": "BC",
+        "postal_code": "V1J 0J5",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/fort-st-john-hospital-peace-villa",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 15,
+        "procedure_count": 38,
+        "wait_time_row_count": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.500067,
+          52.981682
+        ]
+      },
+      "properties": {
+        "facility_name": "G.R. Baker Memorial Hospital",
+        "health_authority": "Northern Health",
+        "address": "543 Front St",
+        "locality": "Quesnel",
+        "province": "BC",
+        "postal_code": "V2J 2K7",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/gr-baker-memorial-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 13,
+        "procedure_count": 47,
+        "wait_time_row_count": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9680129,
+          51.2980468
+        ]
+      },
+      "properties": {
+        "facility_name": "Golden And District General Hospital",
+        "health_authority": "Interior Health",
+        "address": "835 9th Ave S",
+        "locality": "Golden",
+        "province": "BC",
+        "postal_code": "V0A 1H0",
+        "source_label": "Interior Health facility page",
+        "source_url": "https://www.interiorhealth.ca/locations/golden-district-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 15,
+        "procedure_count": 24,
+        "wait_time_row_count": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4930479,
+          49.8734589
+        ]
+      },
+      "properties": {
+        "facility_name": "Kelowna General Hospital",
+        "health_authority": "Interior Health",
+        "address": "2268 Pandosy St",
+        "locality": "Kelowna",
+        "province": "BC",
+        "postal_code": "V1Y 1T2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/kelowna-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 100,
+        "procedure_count": 114,
+        "wait_time_row_count": 690
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.6474501,
+          54.0504911
+        ]
+      },
+      "properties": {
+        "facility_name": "Kitimat General Hospital",
+        "health_authority": "Northern Health",
+        "address": "920 S Lahakas Blvd",
+        "locality": "Kitimat",
+        "province": "BC",
+        "postal_code": "V8C 2S3",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/kitimat-general-hospital-and-health-centre",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 10,
+        "procedure_count": 26,
+        "wait_time_row_count": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7016641,
+          49.102783
+        ]
+      },
+      "properties": {
+        "facility_name": "Kootenay Boundary Regional Hospital",
+        "health_authority": "Interior Health",
+        "address": "1200 Hospital Bench Rd",
+        "locality": "Trail",
+        "province": "BC",
+        "postal_code": "V1R 4M1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/kootenay-boundary-regional-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 21,
+        "procedure_count": 55,
+        "wait_time_row_count": 167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2851157,
+          49.4950196
+        ]
+      },
+      "properties": {
+        "facility_name": "Kootenay Lake Hospital",
+        "health_authority": "Interior Health",
+        "address": "3 View St",
+        "locality": "Nelson",
+        "province": "BC",
+        "postal_code": "V1L 2V1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/kootenay-lake-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 17,
+        "procedure_count": 27,
+        "wait_time_row_count": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.5961926,
+          54.5113996
+        ]
+      },
+      "properties": {
+        "facility_name": "Ksyen Regional Hospital",
+        "health_authority": "Northern Health",
+        "address": "2800 Tetrault St",
+        "locality": "Terrace",
+        "province": "BC",
+        "postal_code": "V8G 2W8",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/ksyen-regional-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 30,
+        "procedure_count": 64,
+        "wait_time_row_count": 156
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6123667,
+          49.094879
+        ]
+      },
+      "properties": {
+        "facility_name": "Langley Memorial Hospital",
+        "health_authority": "Fraser Health",
+        "address": "22051 Fraser Hwy",
+        "locality": "Township of Langley",
+        "province": "BC",
+        "postal_code": "V3A 4H4",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Langley/langley-memorial-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 31,
+        "procedure_count": 66,
+        "wait_time_row_count": 226
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0677812,
+          49.3210879
+        ]
+      },
+      "properties": {
+        "facility_name": "Lions Gate Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "231 E 15th St",
+        "locality": "North Vancouver",
+        "province": "BC",
+        "postal_code": "V7L 2L7",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/lions-gate-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 63,
+        "procedure_count": 82,
+        "wait_time_row_count": 361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0952083,
+          49.257914
+        ]
+      },
+      "properties": {
+        "facility_name": "Mount Saint Joseph Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "3080 Prince Edward St",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V5T 3N4",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.providencehealthcare.org/en/locations/mount-saint-joseph-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 73,
+        "procedure_count": 53,
+        "wait_time_row_count": 284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9704505,
+          49.1847551
+        ]
+      },
+      "properties": {
+        "facility_name": "Nanaimo Regional General Hospital",
+        "health_authority": "Vancouver Island Health",
+        "address": "1200 Dufferin Cres",
+        "locality": "Nanaimo",
+        "province": "BC",
+        "postal_code": "V9S 2B7",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.islandhealth.ca/care-locations/hospitals-health-centre-locations/nanaimo-regional-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 59,
+        "procedure_count": 92,
+        "wait_time_row_count": 432
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8338333,
+          49.1797171
+        ]
+      },
+      "properties": {
+        "facility_name": "Pattison Outpatient Centre",
+        "health_authority": "Fraser Health",
+        "address": "9750 140 St",
+        "locality": "Surrey",
+        "province": "BC",
+        "postal_code": "V3T 0G9",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Surrey/jim-pattison-outpatient-care-and-surgery-centre",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 83,
+        "procedure_count": 54,
+        "wait_time_row_count": 359
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7916065,
+          49.0296535
+        ]
+      },
+      "properties": {
+        "facility_name": "Peace Arch Hospital",
+        "health_authority": "Fraser Health",
+        "address": "15521 Russell Ave",
+        "locality": "White Rock",
+        "province": "BC",
+        "postal_code": "V4B 2R4",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/White-Rock/peace-arch-hospital#.W1j4d9VKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 28,
+        "procedure_count": 56,
+        "wait_time_row_count": 193
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5786327,
+          49.4824905
+        ]
+      },
+      "properties": {
+        "facility_name": "Penticton Regional Hospital",
+        "health_authority": "Interior Health",
+        "address": "550 Carmi Ave",
+        "locality": "Penticton",
+        "province": "BC",
+        "postal_code": "V2A 3G6",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/penticton-regional-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 20,
+        "procedure_count": 62,
+        "wait_time_row_count": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2109134,
+          50.4403955
+        ]
+      },
+      "properties": {
+        "facility_name": "Pleasant Valley Health Centre",
+        "health_authority": "Interior Health",
+        "address": "3800 Patten Dr",
+        "locality": "Armstrong",
+        "province": "BC",
+        "postal_code": "V4Y 1C4",
+        "source_label": "Interior Health facility page",
+        "source_url": "https://www.interiorhealth.ca/locations/pleasant-valley-health-centre",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 4,
+        "procedure_count": 5,
+        "wait_time_row_count": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.3317532,
+          54.3043705
+        ]
+      },
+      "properties": {
+        "facility_name": "Prince Rupert Regional Hospital",
+        "health_authority": "Northern Health",
+        "address": "1305 Summit Ave",
+        "locality": "Prince Rupert",
+        "province": "BC",
+        "postal_code": "V8J 2A6",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/prince-rupert-regional-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 11,
+        "procedure_count": 36,
+        "wait_time_row_count": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.5183564,
+          49.8508312
+        ]
+      },
+      "properties": {
+        "facility_name": "Qathet General Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "5000 Joyce Ave",
+        "locality": "Powell River",
+        "province": "BC",
+        "postal_code": "V8A 5R3",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/qathet-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 8,
+        "procedure_count": 24,
+        "wait_time_row_count": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1904797,
+          50.9773376
+        ]
+      },
+      "properties": {
+        "facility_name": "Queen Victoria Hospital",
+        "health_authority": "Interior Health",
+        "address": "1200 Newlands Rd",
+        "locality": "Revelstoke",
+        "province": "BC",
+        "postal_code": "V0E 2S1",
+        "source_label": "Interior Health facility page",
+        "source_url": "https://www.interiorhealth.ca/locations/queen-victoria-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 15,
+        "procedure_count": 27,
+        "wait_time_row_count": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1463027,
+          49.168865
+        ]
+      },
+      "properties": {
+        "facility_name": "Richmond Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "7000 Westminster Hwy",
+        "locality": "Richmond",
+        "province": "BC",
+        "postal_code": "V6X 1A2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/richmond-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 48,
+        "procedure_count": 76,
+        "wait_time_row_count": 336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6299747,
+          49.2153772
+        ]
+      },
+      "properties": {
+        "facility_name": "Ridge Meadows Hospital",
+        "health_authority": "Fraser Health",
+        "address": "11666 Laity St",
+        "locality": "Maple Ridge",
+        "province": "BC",
+        "postal_code": "V2X 7G5",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Maple-Ridge---Pitt-Meadows/ridge-meadows-hospital#.W1j0SdVKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 31,
+        "procedure_count": 56,
+        "wait_time_row_count": 155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8905697,
+          49.2267056
+        ]
+      },
+      "properties": {
+        "facility_name": "Royal Columbian Hospital",
+        "health_authority": "Fraser Health",
+        "address": "330 E Columbia St",
+        "locality": "New Westminster",
+        "province": "BC",
+        "postal_code": "V3L 3W7",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/New-Westminster/royal-columbian-hospital#.W1jyEtVKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 93,
+        "procedure_count": 79,
+        "wait_time_row_count": 367
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.3337638,
+          50.6711579
+        ]
+      },
+      "properties": {
+        "facility_name": "Royal Inland Hospital",
+        "health_authority": "Interior Health",
+        "address": "311 Columbia St",
+        "locality": "Kamloops",
+        "province": "BC",
+        "postal_code": "V2C 2T1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/royal-inland-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 59,
+        "procedure_count": 89,
+        "wait_time_row_count": 421
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3264312,
+          48.4338205
+        ]
+      },
+      "properties": {
+        "facility_name": "Royal Jubilee Hospital",
+        "health_authority": "Vancouver Island Health",
+        "address": "1952 Bay St",
+        "locality": "Victoria",
+        "province": "BC",
+        "postal_code": "V8R 1J8",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/royal-jubilee-hospital-rjh",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 5,
+        "procedure_count": 2,
+        "wait_time_row_count": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.7489277,
+          49.4744394
+        ]
+      },
+      "properties": {
+        "facility_name": "Sechelt Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "5544 Sunshine Coast Hwy",
+        "locality": "Sechelt",
+        "province": "BC",
+        "postal_code": "V0N 3A0",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/sechelt-shishalh-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 9,
+        "procedure_count": 25,
+        "wait_time_row_count": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2749004,
+          50.7043912
+        ]
+      },
+      "properties": {
+        "facility_name": "Shuswap Lake General Hospital",
+        "health_authority": "Interior Health",
+        "address": "601 10 St NE",
+        "locality": "Salmon Arm",
+        "province": "BC",
+        "postal_code": "V1E 4N6",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/shuswap-lake-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 14,
+        "procedure_count": 49,
+        "wait_time_row_count": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.4282451,
+          48.4678857
+        ]
+      },
+      "properties": {
+        "facility_name": "South Island Surgical Centre",
+        "health_authority": "Vancouver Island Health",
+        "address": "29 Helmcken Rd",
+        "locality": "View Royal",
+        "province": "BC",
+        "postal_code": "V8Z 5G5",
+        "source_label": "Island Health facility page",
+        "source_url": "https://www.islandhealth.ca/our-locations/ambulatory-day-surgery-locations/south-island-surgical-centre-sisc",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 50,
+        "procedure_count": 54,
+        "wait_time_row_count": 203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1405803,
+          49.6985948
+        ]
+      },
+      "properties": {
+        "facility_name": "Squamish General Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "38140 Behrner Dr",
+        "locality": "Squamish",
+        "province": "BC",
+        "postal_code": "V8B 0J3",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/squamish-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 26,
+        "procedure_count": 34,
+        "wait_time_row_count": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.0110024,
+          54.0285233
+        ]
+      },
+      "properties": {
+        "facility_name": "St. John Hospital",
+        "health_authority": "Northern Health",
+        "address": "3255 Hospital Rd",
+        "locality": "Vanderhoof",
+        "province": "BC",
+        "postal_code": "V0J 3A2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/st-john-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 20,
+        "procedure_count": 41,
+        "wait_time_row_count": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1289966,
+          49.2805979
+        ]
+      },
+      "properties": {
+        "facility_name": "St. Paul's Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "1081 Burrard St",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V6Z 1Y6",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.providencehealthcare.org/en/locations/st-pauls-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 99,
+        "procedure_count": 77,
+        "wait_time_row_count": 487
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6687644,
+          49.6014628
+        ]
+      },
+      "properties": {
+        "facility_name": "Summerland Memorial Health Centre",
+        "health_authority": "Interior Health",
+        "address": "12815 Atkinson Rd",
+        "locality": "Summerland",
+        "province": "BC",
+        "postal_code": "V0H 1Z0",
+        "source_label": "Interior Health facility page",
+        "source_url": "https://www.interiorhealth.ca/locations/summerland-community-health-centre",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 10,
+        "procedure_count": 15,
+        "wait_time_row_count": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7502254,
+          53.9160905
+        ]
+      },
+      "properties": {
+        "facility_name": "Surgery Centre",
+        "health_authority": "Northern Health",
+        "address": "500 Victoria St",
+        "locality": "Prince George",
+        "province": "BC",
+        "postal_code": "V2L 2J9",
+        "source_label": "Downtown Prince George business listing",
+        "source_url": "https://downtownpg.com/businesses/prince-george-surgery-centre/",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 11,
+        "procedure_count": 12,
+        "wait_time_row_count": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8424373,
+          49.1768252
+        ]
+      },
+      "properties": {
+        "facility_name": "Surrey Memorial Hospital",
+        "health_authority": "Fraser Health",
+        "address": "13750 96 Ave",
+        "locality": "Surrey",
+        "province": "BC",
+        "postal_code": "V3V 1Z2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.fraserhealth.ca/Service-Directory/Locations/Surrey/surrey-memorial-hospital#.W1j1rdVKhEY",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 99,
+        "procedure_count": 101,
+        "wait_time_row_count": 484
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.763478,
+          53.9112808
+        ]
+      },
+      "properties": {
+        "facility_name": "The University Hospital Of Northern British Columbia",
+        "health_authority": "Northern Health",
+        "address": "1475 Edmonton St",
+        "locality": "Prince George",
+        "province": "BC",
+        "postal_code": "V2M 1S2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/university-hospital-northern-british-columbia-uhnbc",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 44,
+        "procedure_count": 85,
+        "wait_time_row_count": 331
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.244259,
+          49.2646706
+        ]
+      },
+      "properties": {
+        "facility_name": "UBC Health Sciences Centre",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "2211 Wesbrook Mall",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V6T 2B5",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/ubc-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 116,
+        "procedure_count": 67,
+        "wait_time_row_count": 407
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1236005,
+          49.2614669
+        ]
+      },
+      "properties": {
+        "facility_name": "Vancouver General Hospital",
+        "health_authority": "Vancouver Coastal Health",
+        "address": "899 W 12th Ave",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": "V5Z 1M9",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.vch.ca/en/location/vancouver-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 173,
+        "procedure_count": 85,
+        "wait_time_row_count": 604
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2734208,
+          50.2573987
+        ]
+      },
+      "properties": {
+        "facility_name": "Vernon Jubilee Hospital",
+        "health_authority": "Interior Health",
+        "address": "2101 32 St",
+        "locality": "Vernon",
+        "province": "BC",
+        "postal_code": "V1T 5L2",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.interiorhealth.ca/locations/vernon-jubilee-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 29,
+        "procedure_count": 72,
+        "wait_time_row_count": 240
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7821048,
+          49.2484114
+        ]
+      },
+      "properties": {
+        "facility_name": "West Coast General Hospital",
+        "health_authority": "Vancouver Island Health",
+        "address": "3949 Port Alberni Hwy",
+        "locality": "Port Alberni",
+        "province": "BC",
+        "postal_code": "V9Y 4S1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.islandhealth.ca/our-locations/hospitals-health-centre-locations/west-coast-general-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 7,
+        "procedure_count": 24,
+        "wait_time_row_count": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6515954,
+          55.2589989
+        ]
+      },
+      "properties": {
+        "facility_name": "Wrinch Memorial Hospital",
+        "health_authority": "Northern Health",
+        "address": "2510 Hwy 62",
+        "locality": "Hazelton",
+        "province": "BC",
+        "postal_code": "V0J 1Y1",
+        "source_label": "HealthLinkBC hospitals CSV",
+        "source_url": "https://www.northernhealth.ca/find-a-facility/hospitals/wrinch-memorial-hospital",
+        "verification_status": "geocoded_needs_review",
+        "latest_run_id": 5,
+        "specialist_count": 11,
+        "procedure_count": 13,
+        "wait_time_row_count": 19
+      }
+    }
+  ]
+}
