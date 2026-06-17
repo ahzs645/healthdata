@@ -54,23 +54,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.0651522,
-          49.2323018
+          -123.1185783,
+          49.2333488
         ]
       },
       "properties": {
-        "parent_canonical_name": "Greig Associates X-ray",
-        "parent_place_type": "Ultrasound and Mammography Inc.",
-        "site_name": "diagnostic_facility",
-        "site_type": "Greig Associates X-ray and Ultrasound - Victoria Drive",
-        "address": "5732 Victoria Dr",
+        "parent_canonical_name": "Greig Associates X-ray, Ultrasound and Mammography Inc.",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Greig Associates X-ray and Ultrasound - Oakridge",
+        "site_type": "diagnostic_facility",
+        "address": "219 - 650 W 41st Ave",
         "locality": "Vancouver",
         "province": "BC",
-        "postal_code": "BC",
-        "source_label": null,
-        "source_url": "BC Ministry of Health approved diagnostic facilities - radiology",
-        "verification_status": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
-        "notes": "verified BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "verification_status": "verified",
+        "notes": "Official approved diagnostic facility list location. BC Geocoder matched UNIT 219 -- 650 W 41st Ave, Vancouver, BC score=99 precision=UNIT."
       }
     },
     {
@@ -83,18 +83,66 @@
         ]
       },
       "properties": {
-        "parent_canonical_name": "Grieg Associates X-ray",
-        "parent_place_type": "Ultrasound and Mammography Inc.",
-        "site_name": "diagnostic_facility",
-        "site_type": "Greig Associates X-ray and Ultrasound - Victoria Drive",
+        "parent_canonical_name": "Greig Associates X-ray, Ultrasound and Mammography Inc.",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Greig Associates X-ray and Ultrasound - Victoria Drive",
+        "site_type": "diagnostic_facility",
         "address": "5732 Victoria Dr",
         "locality": "Vancouver",
         "province": "BC",
-        "postal_code": "BC",
-        "source_label": null,
-        "source_url": "BC Ministry of Health approved diagnostic facilities - radiology",
-        "verification_status": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
-        "notes": "verified BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "verification_status": "verified",
+        "notes": "Official approved diagnostic facility list location. BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1185783,
+          49.2333488
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Grieg Associates X-ray, Ultrasound and Mammography Inc.",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Greig Associates X-ray and Ultrasound - Oakridge",
+        "site_type": "diagnostic_facility",
+        "address": "219 - 650 W 41st Ave",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "verification_status": "verified",
+        "notes": "Parent payee appears to be a spelling variant of Greig Associates; official approved diagnostic facility list location. BC Geocoder matched UNIT 219 -- 650 W 41st Ave, Vancouver, BC score=99 precision=UNIT."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0651522,
+          49.2323018
+        ]
+      },
+      "properties": {
+        "parent_canonical_name": "Grieg Associates X-ray, Ultrasound and Mammography Inc.",
+        "parent_place_type": "diagnostic_facility",
+        "site_name": "Greig Associates X-ray and Ultrasound - Victoria Drive",
+        "site_type": "diagnostic_facility",
+        "address": "5732 Victoria Dr",
+        "locality": "Vancouver",
+        "province": "BC",
+        "postal_code": null,
+        "source_label": "BC Ministry of Health approved diagnostic facilities - radiology",
+        "source_url": "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/diagnostic-facilities/approved-diagnostic-facilities/dfa_radiology.pdf",
+        "verification_status": "verified",
+        "notes": "Parent payee appears to be a spelling variant of Greig Associates; official approved diagnostic facility list location. BC Geocoder matched 5732 Victoria Dr, Vancouver, BC score=97 precision=CIVIC_NUMBER."
       }
     },
     {
@@ -286,7 +334,7 @@
         "source_label": "St. Bartholomew's Health Centre directory record",
         "source_url": "https://opengovca.com/place/ChIJXxw7NugEgVQRnc4JDirw3KU",
         "verification_status": "geocoded_needs_review",
-        "notes": "Preliminary mapping for historical MSP payee. Several directory sources list 575A Main St for the health centre; older hospital listings also cite 844 Main St BC Geocoder matched 575A Main St, Lytton, BC score=97 precision=BLOCK."
+        "notes": "Preliminary mapping for historical MSP payee. Several directory sources list 575A Main St for the health centre; older hospital listings also cite 844 Main St. BC Geocoder matched 575A Main St, Lytton, BC score=97 precision=BLOCK."
       }
     }
   ]
