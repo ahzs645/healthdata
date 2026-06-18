@@ -48,6 +48,15 @@ to benefit/cost lines). `statcan_education_earnings` pulls fresh from the StatCa
 API; `unbc_sofi`, `bc_utility_tariffs` and `bc_permit_fees` download + parse PDFs
 (needs `pdfplumber`).
 
+## PGMaps exports
+
+PGMaps serves a small set of health snapshots from `/data/*.json`. Keep those
+deploy-ready exports beside the source that owns them:
+
+- `bc_wait_times/output/bc-wait-specialists.json` is the surgery wait-times app
+  export derived from `bc_wait_times.db` and reviewed facility locations.
+- `erstat/output/erstat-hospitals.json` is the ERStat hospital wait snapshot.
+
 ## Setup
 
 ```bash
