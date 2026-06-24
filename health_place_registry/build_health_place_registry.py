@@ -71,7 +71,9 @@ DEFAULT_SITES = Path("health_place_sites.csv")
 DEFAULT_SITES_GEOJSON = Path("health_place_sites.geojson")
 DEFAULT_WAIT_TIMES_LOCATIONS = Path("../bc_wait_times/facility_locations.csv")
 DEFAULT_MSP_DB = Path("../bc_msp_blue_book/bc_msp_blue_book.db")
+DEFAULT_ODHF_BC = Path("../statcan_odhf/output/statcan-odhf-bc.csv")
 BC_GEOCODER_URL = "https://geocoder.api.gov.bc.ca/addresses.json"
+STATCAN_ODHF_SOURCE_URL = "https://www.statcan.gc.ca/en/lode/databases/odhf"
 
 MSP_PLACE_TYPES = {"clinic", "diagnostic_facility", "health_authority", "hospital", "organization"}
 
@@ -385,6 +387,58 @@ def load_msp_places(db_path: Path) -> list[HealthPlace]:
     return rows
 
 
+def odhf_place_type(odhf_facility_type: str, source_facility_type: str, facility_name: str) -> str:
+    odhf_type = odhf_facility_type.casefold()
+    if "hospital" in odhf_type:
+        return "hospital"
+    if "ambulatory" in odhf_type:
+        inferred = infer_place_type(f"{source_facility_type} {facility_name}", default="clinic")
+        return inferred if inferred in {"clinic", "diagnostic_facility", "hospital"} else "clinic"
+    if "nursing" in odhf_type or "residential" in odhf_type:
+        return "facility"
+    return infer_place_type(f"{source_facility_type} {facility_name}", default="facility")
+
+
+def load_odhf_places(path: Path) -> list[HealthPlace]:
+    if not path.exists():
+        log.warning("StatCan ODHF BC export not found: %s", path)
+        return []
+    rows = []
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            facility_name = (row.get("facility_name") or "").strip()
+            if not facility_name:
+                continue
+            odhf_type = (row.get("odhf_facility_type") or "").strip()
+            source_type = (row.get("source_facility_type") or "").strip()
+            latitude = (row.get("latitude") or "").strip()
+            longitude = (row.get("longitude") or "").strip()
+            rows.append(
+                HealthPlace(
+                    canonical_name=facility_name,
+                    place_type=odhf_place_type(odhf_type, source_type, facility_name),
+                    place_status="physical_place",
+                    address=(row.get("address") or "").strip(),
+                    locality=(row.get("city") or "").strip(),
+                    province=(row.get("province") or "BC").strip().upper(),
+                    postal_code=(row.get("postal_code") or "").strip().upper(),
+                    latitude=latitude,
+                    longitude=longitude,
+                    source_label="Statistics Canada Open Database of Healthcare Facilities",
+                    source_url=(row.get("source_url") or STATCAN_ODHF_SOURCE_URL).strip(),
+                    verification_status="source_provided_needs_review",
+                    source_datasets="statcan_odhf",
+                    aliases=facility_name,
+                    notes=(
+                        "Imported from StatCan ODHF BC export"
+                        f" (ODHF type: {odhf_type or 'unspecified'}; source type: {source_type or 'unspecified'})."
+                    ),
+                )
+            )
+    return rows
+
+
 def infer_place_type(name: str, default: str = "organization") -> str:
     lowered = name.casefold()
     if "health authority" in lowered:
@@ -633,6 +687,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--sites-geojson", default=str(DEFAULT_SITES_GEOJSON), help="Output child-sites GeoJSON path")
     parser.add_argument("--wait-times-locations", default=str(DEFAULT_WAIT_TIMES_LOCATIONS))
     parser.add_argument("--msp-db", default=str(DEFAULT_MSP_DB))
+    parser.add_argument("--odhf-bc", default=str(DEFAULT_ODHF_BC), help="StatCan ODHF BC CSV export")
     parser.add_argument("--sync", action="store_true", help="Merge source names into the registry CSV")
     parser.add_argument(
         "--apply-enrichment",
@@ -672,6 +727,8 @@ def main(argv: list[str] | None = None) -> int:
         for incoming in load_wait_times_locations(Path(args.wait_times_locations)):
             added += 1 if merge_place(places, incoming) else 0
         for incoming in load_msp_places(Path(args.msp_db)):
+            added += 1 if merge_place(places, incoming) else 0
+        for incoming in load_odhf_places(Path(args.odhf_bc)):
             added += 1 if merge_place(places, incoming) else 0
         write_registry(registry_path, places)
         log.info("Sync complete (%d added, %d total)", added, len(places))

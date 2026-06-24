@@ -34,6 +34,10 @@ healthdata/
 ├── bc_patient_travel/            # NH Connections routes + travel cost benchmarks       [CBA B3]
 │   ├── scrape_bc_patient_travel.py
 │   └── bc_patient_travel.db
+├── statcan_odhf/                 # Open Database of Healthcare Facilities — StatCan
+│   ├── scrape_statcan_odhf.py
+│   ├── statcan_odhf.db
+│   └── output/
 ├── statcan_cba/                  # BC wages/retirement/labour force/migration — StatCan [CBA B2,B5,B12,B13]
 │   ├── scrape_statcan_cba.py
 │   └── statcan_cba.db
@@ -56,6 +60,10 @@ deploy-ready exports beside the source that owns them:
 - `bc_wait_times/output/bc-wait-specialists.json` is the surgery wait-times app
   export derived from `bc_wait_times.db` and reviewed facility locations.
 - `erstat/output/erstat-hospitals.json` is the ERStat hospital wait snapshot.
+- `statcan_odhf/output/statcan-odhf-bc.{csv,geojson}` is the BC subset of
+  StatCan's Open Database of Healthcare Facilities.
+- `health_place_registry/health_place_registry.{csv,geojson}` merges reviewed
+  registry entries with MSP, wait-times, and StatCan ODHF source membership.
 
 ## Setup
 
@@ -72,12 +80,13 @@ from inside its own folder:
 cd bc_wait_times              && python scrape_bc_wait_times.py
 cd msp_codes                  && python scrape_msp_codes.py
 cd bc_msp_blue_book           && python load_bc_msp_blue_book.py
-cd health_place_registry      && python build_health_place_registry.py --sync --export-geojson
+cd health_place_registry      && python build_health_place_registry.py --sync --export-geojson --export-sites-geojson
 cd statcan_education_earnings && python scrape_statcan_education_earnings.py
 cd unbc_sofi                  && python scrape_unbc_sofi.py
 cd bc_utility_tariffs         && python scrape_bc_utility_tariffs.py
 cd bc_permit_fees             && python scrape_bc_permit_fees.py
 cd bc_patient_travel          && python scrape_bc_patient_travel.py
+cd statcan_odhf               && python scrape_statcan_odhf.py
 cd statcan_cba                && python scrape_statcan_cba.py
 cd cihi_cshs                  && python load_cihi_cshs.py   # parses CIHI exports in source/
 ```
