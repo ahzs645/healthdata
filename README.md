@@ -34,6 +34,10 @@ healthdata/
 ├── bc_patient_travel/            # NH Connections routes + travel cost benchmarks       [CBA B3]
 │   ├── scrape_bc_patient_travel.py
 │   └── bc_patient_travel.db
+├── bc_immunization_services/     # HealthLinkBC immunization service locations
+│   ├── scrape_bc_immunization_services.py
+│   ├── bc_immunization_services.db
+│   └── output/
 ├── statcan_odhf/                 # Open Database of Healthcare Facilities — StatCan
 │   ├── scrape_statcan_odhf.py
 │   ├── statcan_odhf.db
@@ -59,6 +63,9 @@ deploy-ready exports beside the source that owns them:
 
 - `bc_wait_times/output/bc-wait-specialists.json` is the surgery wait-times app
   export derived from `bc_wait_times.db` and reviewed facility locations.
+- `bc_immunization_services/output/bc-immunization-services.{csv,geojson}` is
+  the HealthLinkBC / BC Data Catalogue immunization services export. Use this
+  instead of Vaccines411 for bulk BC vaccination-service locations.
 - `erstat/output/erstat-hospitals.json` is the ERStat hospital wait snapshot.
 - `statcan_odhf/output/statcan-odhf-bc.{csv,geojson}` is the BC subset of
   StatCan's Open Database of Healthcare Facilities.
@@ -86,6 +93,7 @@ cd unbc_sofi                  && python scrape_unbc_sofi.py
 cd bc_utility_tariffs         && python scrape_bc_utility_tariffs.py
 cd bc_permit_fees             && python scrape_bc_permit_fees.py
 cd bc_patient_travel          && python scrape_bc_patient_travel.py
+cd bc_immunization_services   && python scrape_bc_immunization_services.py
 cd statcan_odhf               && python scrape_statcan_odhf.py
 cd statcan_cba                && python scrape_statcan_cba.py
 cd cihi_cshs                  && python load_cihi_cshs.py   # parses CIHI exports in source/
